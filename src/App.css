@@ -1,0 +1,43 @@
+.App {
+  width: 80vw;
+  margin: auto;
+}
+
+h1 {
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.card {
+  outline: 1px solid coral;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 5px;
+}
+
+.label {
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.input {
+  outline: 1px solid coral;
+  border-radius: 3px;
+  text-align: center;
+  padding: 3px;
+}
+
+/* .nameContainer {
+  display: flex;
+}
+
+.rollContainer {
+  display: flex;
+} */
+
+.cardContainer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 25px;
+}
